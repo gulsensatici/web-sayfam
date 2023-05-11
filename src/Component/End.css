@@ -1,0 +1,102 @@
+.end {
+background: #F9F9F9;
+width: 1440px;
+height:409px ;
+}
+.end h3{
+    padding-top: 85px;
+}
+.end p {
+margin-left: 125px;
+margin-top: 100px;
+width: 269px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-decoration-line: underline;
+color: #AF0C48;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+nav {
+    text-align: end;
+    
+ 
+}
+.navigasyon{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 850px;
+    margin-top: -15px;
+    
+}
+.birinci{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+letter-spacing: 0.01em;
+
+color: #0A0A14;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.ikinci {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+letter-spacing: 0.01em;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.ikinci a {
+    color: #00AB6B;
+}
+.üçüncü{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+letter-spacing: 0.01em;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.üçüncü a {
+    color: #0077B5;
+
+}

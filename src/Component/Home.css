@@ -1,0 +1,228 @@
+.hero{
+    position: relative;
+    
+}
+.container.f_flex.top
+{
+ justify-content: flex-start;
+ margin-left: 125px;
+ display: flex;
+}
+.hero h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+    width: 596px;
+height: 144px;
+    
+    /* Default/gray/800 */
+    
+    color: #1F2937;
+    
+}
+.hero p{
+    font-size: 20px;
+    width: 600px;
+    margin-top: 50px;
+    color:#878e99;
+    line-height: 30px;
+
+
+}
+.btn_shadow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    
+    width: 135px;
+    height: 52px;
+    
+    /* Default/indigo/800 */
+    
+    background: #3730A3;
+    border-radius: 6px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.btn_shadow{
+    box-sizing: border-box;
+margin-right: 20px;
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 12px;
+    gap: 10px;
+    
+    width: 135px;
+    height: 52px;
+    
+    /* Default/white */
+    
+    background: #FFFFFF;
+    /* Default/indigo/800 */
+    
+    border: 1px solid #3730A3;
+    border-radius: 6px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.hero_btn{
+    margin-top:5%;
+}
+.hero_btn button{
+    margin-right: 20px;
+}
+
+.btn_shadow img{
+    width: 26px;
+    height: 26.26px;
+    margin-right: -680px;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.name {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.name p {
+    margin-top: -30px;
+    margin-left: 210px;
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .name hr{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color:#3730A3;
+    margin-left: 125px;
+    
+ }
+.picture{
+    justify-content: end;
+    margin-top: 30px;
+    border-radius: 25px;
+    width:400px ;
+    height:400px; 
+    margin-left: 50px;
+    opacity: 1;
+    margin-right: 175px;
+}
+hr{
+    width: 70px;
+    margin-left: 30px;
+    
+ }
+.hero {
+    justify-content: space-around;
+}
+.button {
+    display: flex;
+    margin-left: 20px;
+    
+    
+}
+.btn_shadow1 a {
+   color: #FFFFFF;
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 28px;
+margin-left: 3px;
+    margin-top: -3px;
+
+  
+    
+}
+
+.button  a{
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+/* Default/indigo/800 */
+
+color: #3730A3;
+margin-left: 820px;
+}
+.butonlar {
+    display: flex;
+    margin-right: 10px;
+
+}
+.resim2 img{
+    
+width: 24px;
+height: 25.21px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 14px;
+margin-left: -140px;
+}
+.resim1 img{
+    width: 26px;
+height: 26.26px;
+
+margin-left:-300px;
+margin-top: 12px;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.btn_shadow a  {
+    margin-left: 40px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+/* Default/indigo/800 */
+
+color: #3730A3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
